@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>New project to publish on Github</title>
+  <link rel="icon" type="image/x-icon" href="Mira_two_months.jpg">
+</head>
+<body>
+Hello world!
+<br><br>
+
+
+<span id="but">Red</span>
+</body>
+
+<script>
+setInterval(function() {
+	if (document.getElementById("but").textContent == "Red")
+		document.getElementById("but").textContent = "Blue";
+	else 
+		document.getElementById("but").textContent = "Red";
+}, 2000);
+
+</script>
+</html>
